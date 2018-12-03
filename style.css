@@ -1,0 +1,101 @@
+body {
+  margin: 0px;
+}
+
+h1 {
+  font-family: 'PT Sans', sans-serif;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+h3 h4 {
+  font-family: 'PT Sans', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  margin-top: 5px;
+}
+
+.fancy {
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
+}
+
+/*=========================== BANNER*/
+
+.fa-concierge-bell {
+  margin: 40px;
+  color: #FF8574;
+  text-shadow: 2px 2px 5px black;
+}
+
+.fa-concierge-bell:hover {
+  transform: rotate(8deg);
+  cursor: pointer;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(250, 250, 250, 0.5), rgba(25, 25, 25, 0.5)), url("images/velo.jpeg");
+  background-size: cover;
+}
+
+.banner h1 {
+  color: #FFFFFF;
+  }
+
+.banner p {
+  color: #FFFFFF;
+  }
+
+.title {
+  margin-left: 120px;
+  margin-top: 230px;
+  padding-bottom: 60px;
+}
+
+/*=========================== 3 CARDS*/
+
+.steps {
+  background-color: #FDFBF9;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-container i {
+  color: #FF8574;
+}
+
+.card {
+  width: 300px;
+  text-align: center;
+}
+
+.card p {
+  text-align: justify;
+}
+
+.card h4 {
+  color: #FF8574;
+}
+
+#title {
+  margin-left: 40px;
+  margin-top: 0px;
+  padding-top: 40px;
+  margin-bottom: 50px;
+}
+
+.steps i {
+  text-shadow: 2px 2px 2px grey;
+}
+
+
+#avatar {
+  height: 90px;
+  border-radius: 45px;
+}
+
