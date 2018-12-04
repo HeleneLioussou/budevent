@@ -93,9 +93,43 @@ p {
   text-shadow: 2px 2px 2px grey;
 }
 
+/*=========================== ACCUEIL*/
 
 #avatar {
   height: 90px;
   border-radius: 45px;
 }
 
+.accueil {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #FDFBF9;
+  height: 300px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.infos {
+  background-color: rgba(236, 106, 93, 0.3);
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.accueil-button {
+  background-color: #EC6A5D;
+  height: 25px;
+  margin-bottom: 20px;
+}
+
+.accueil-paragraphe {
+  margin: 20px;
+}
+
+
+#eiffel{
+  transform: translate3d(0px, -54.6391px, 0px);
+}

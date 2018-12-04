@@ -1,5 +1,8 @@
 <html>
   <head>
+    <script type="text/javascript" src="filename.js" ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
     <link rel="stylesheet" type="text/css" href="style.css" media="all" />
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -39,16 +42,19 @@
       </div>
     </div>
 
-    <div class="accueil"></div>
-    <img id="avatar" src="images/francois.jpg" alt="Francois">
-    <h3>A votre arrivée</h3>
-    <p>A votre arrivée, François, le maître du lieu, vous accueillera avec un pac dédié à votre activité : café et thé pour une réservation Business, jeux et décorations pour un anniversaire, suspentes pour vos vernissages. François s'occupe de tout pour que vous puissiez vous concentrer sur votre évènement.</p>
+    <div class="accueil">
+      <img id="avatar" src="images/francois.jpg" alt="Francois" class="accueil-avatar">
+      <div class="infos">
+        <p class="accueil-paragraphe">A votre arrivée, François, le maître du lieu, vous accueillera avec un pac dédié à votre activité : café et thé pour une réservation Business, jeux et décorations pour un anniversaire, suspentes pour vos vernissages. François s'occupe de tout pour que vous puissiez vous concentrer sur votre évènement.</p>
 
+        <button class="accueil-button" type="button">Envoyer un message à François</button>
+      </div>
+    </div>
 
-
+    <img id="eiffel" src="images/eiffel.png" alt="Eiffel">
     <h3>Règles du lieu</h3>
     <p>Lors de votre réservation de Buddiz Event, vous pouvez accueillir du public jusqu'à 15 personnes, de 10h à 22h. Le reste du temps, vous êtes libre de profitez de votre location en toute sérénité.</p>
-    <button type="button">Envoyer un message à François</button>
+
 
     <h3>Localisation</h3>
     <p>Buddiz Event se situe au coeur du quartier latin, à deux pas du jardin du Luxembourg. Vous pouvez y accéder par métro ou RER B à la station Luxembourg ou avec les lignes 21 et 27 du BUS. Buddiz event se trouve en RDC au 59, rue Gay Lussac.</p>
