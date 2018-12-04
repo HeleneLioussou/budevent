@@ -22,6 +22,18 @@ p {
   font-size: 25px;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+  padding-top: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+a:hover {
+  background-color: grey;
+}
+
 /*=========================== BANNER*/
 
 .fa-concierge-bell {
@@ -123,13 +135,27 @@ p {
   background-color: #EC6A5D;
   height: 25px;
   margin-bottom: 20px;
+  border-radius: 25px;
+  box-shadow: 2px 2px 2px grey;
 }
 
 .accueil-paragraphe {
   margin: 20px;
 }
 
+#eiffel-container {
+  position: relative;
+}
 
-#eiffel{
+#eiffel {
+  position: absolute;
   transform: translate3d(0px, -54.6391px, 0px);
+  height: 200px;
+}
+
+/*=========================== FOOTER*/
+
+.footer {
+  text-align: center;
+  padding-top: 100px;
 }
