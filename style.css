@@ -152,10 +152,24 @@ a:hover {
   transform: translate3d(0px, -54.6391px, 0px);
   height: 200px;
 }
+/*=========================== LOCALISATION*/
 
+#eiffel-container {
+  background-color: #FDFBF9;
+}
+
+#banner-typed-text {
+  background-color: #FDFBF9;
+}
+
+.localisation {
+  padding-left: 300px;
+  background-color: #FDFBF9;
+}
 /*=========================== FOOTER*/
 
 .footer {
   text-align: center;
   padding-top: 100px;
+  background-color: #FDFBF9;
 }
